@@ -139,34 +139,26 @@ After doing a bit of preprocessing I split the data set up giving 10% to the val
 I used this training data for training the model. The validation set helped determine if the model was overfitting.
 
 The ideal number of epochs was Z as evidenced by :
-Epoch 1/10
+
+**Epoch 1/10**
 71760/71760 [==============================] - 108s - loss: 0.0503 - acc: 0.2029 - val_loss: 0.0459 - val_acc: 0.1986
-
-Epoch 2/10
+**Epoch 2/10**
 71760/71760 [==============================] - 102s - loss: 0.0398 - acc: 0.2049 - val_loss: 0.0364 - val_acc: 0.2013
-
-Epoch 3/10
+**Epoch 3/10**
 71760/71760 [==============================] - 100s - loss: 0.0332 - acc: 0.2066 - val_loss: 0.0342 - val_acc: 0.2012
-
-Epoch 4/10
+**Epoch 4/10**
 71760/71760 [==============================] - 99s - loss: 0.0283 - acc: 0.2082 - val_loss: 0.0291 - val_acc: 0.2022
-
-Epoch 5/10
+**Epoch 5/10**
 71760/71760 [==============================] - 101s - loss: 0.0250 - acc: 0.2088 - val_loss: 0.0254 - val_acc: 0.2028
-
-Epoch 6/10
+**Epoch 6/10**
 71760/71760 [==============================] - 102s - loss: 0.0224 - acc: 0.2091 - val_loss: 0.0225 - val_acc: 0.2033
-
-Epoch 7/10
+**Epoch 7/10**
 71760/71760 [==============================] - 101s - loss: 0.0206 - acc: 0.2093 - val_loss: 0.0226 - val_acc: 0.2033
-
-Epoch 8/10
+**Epoch 8/10**
 71760/71760 [==============================] - 102s - loss: 0.0191 - acc: 0.2094 - val_loss: 0.0200 - val_acc: 0.2035
-
-Epoch 9/10
+**Epoch 9/10**
 71760/71760 [==============================] - 102s - loss: 0.0179 - acc: 0.2095 - val_loss: 0.0202 - val_acc: 0.2037
-
-Epoch 10/10
+**Epoch 10/10**
 71760/71760 [==============================] - 102s - loss: 0.0168 - acc: 0.2096 - val_loss: 0.0203 - val_acc: 0.2033
 
 Accuracy seemed to increase, but it was a very small increase and the time it took to train made me stop at 10.  Also the validation set at a 6 or 7 had less gains which I think if I went over 6 would cause overfitting.
