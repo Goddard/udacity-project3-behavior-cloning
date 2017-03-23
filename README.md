@@ -93,9 +93,12 @@ The final model architecture (model.py lines 123-136) consisted of a convolution
 | dense_3 (Dense)                  | (None, 10)          | 510      | dense_2[0][0]         |
 | dense_4 (Dense)                  | (None, 1)           | 11       | dense_3[0][0]         |
 
-Total params: 348,219
-Trainable params: 348,219
-Non-trainable params: 0
+**Total params**: 348,219
+
+**Trainable params**: 348,219
+
+**Non-trainable params**: 0
+
 
 Here is a visualization of the architecture.
 
