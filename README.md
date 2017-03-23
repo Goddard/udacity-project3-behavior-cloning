@@ -116,23 +116,36 @@ To augment the data set, I also flipped images and angles thinking that this wou
 ![alt text][image3]
 
 Total Samples :  79734
-Initial Angle Distribution
+
+## Initial Angle Distribution
 Total Left Angles :  1682
+
 Total Right Angles :  1247
+
 Total Straight Angles :  10360
+
 Left to Straight Ratio :  6.159334126040428
+
 Right to Straight Ratio :  8.30793905372895
+
 
 ## After TTS
 Train Sample Size :  71760
+
 Validation Sample Size :  7974
 
-After TTS, Angle Distribution
+
+## After TTS, Angle Distribution
 Total Left Angles :  8608
+
 Total Right Angles :  8678
+
 Total Straight Angles :  54474
+
 Left to Straight Ratio :  6.328299256505576
+
 Right to Straight Ratio :  6.2772528232311595
+
 
 After doing a bit of preprocessing I split the data set up giving 10% to the validation set and the rest to the training set. Shuffling was done by keras in the fit method(shuffle=True).
 
