@@ -138,7 +138,7 @@ After doing a bit of preprocessing I split the data set up giving 10% to the val
 
 I used this training data for training the model. The validation set helped determine if the model was overfitting.
 
-The ideal number of epochs was Z as evidenced by :
+The ideal number of epochs was 6/7 as evidenced by :
 
 **Epoch 1/10**
 
